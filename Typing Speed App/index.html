@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Typing Speed App</title>
+    </head>
+    <header>
+        <h1>Test your Typing Speed</h1>
+    </header>
+    <body>
+        <div id="firstDiv">  
+            <div id="wpm" class="subDivOne">
+                <label>WPM</label>
+                <p id="wpmCount"></p>
+            </div>
+            <div id="lpm" class="subDivOne">
+                <label>LPM</label>
+                <p id="lpmCount"></p>
+            </div>          
+            <div class="subDivOne">
+                <label>Errors</label>
+                <p id="error"></p>
+            </div>
+            <div class="subDivOne">
+                <label>Time</label>
+                <p id="time"></p>
+            </div>
+            <div class="subDivOne">
+                <label>Accuracy</label>
+                <p id="accuracy"></p>
+            </div>
+        </div>
+        <div id="secondDiv">            
+            <button id="startButton">Click here to play!</button>
+        </div>
+        <div id="thirdDiv">
+            <button id="restartButton" onclick="restartButton()">Restart</button>
+        </div>
+
+        <Script src="script.js"></Script>
+    </body>
+</html>

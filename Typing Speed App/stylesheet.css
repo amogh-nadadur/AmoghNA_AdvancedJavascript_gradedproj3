@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#firstDiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 1% 1% 1%;
+}
+
+
+.subDivOne{
+    margin-right: 10px;
+    border: 1px solid black;
+    height: 7vw;
+    width: 7vw;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(177, 248, 84);
+}
+
+#error, #accuracy, #time, #lpmCount, #wpmCount{
+    margin-top: 2vw;
+}
+
+#wpm{
+    display: none;
+}
+
+#lpm{
+    display: none;
+}
+
+#secondDiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0% 1% 0 1%;
+}
+#startButton{
+    display: inline-block;
+    width: fit-content;
+    padding: 1vw 2vw 1vw 2vw;
+    background-color: rgb(177, 248, 84);
+    box-shadow: 3px 3px 1px 1px black;
+    border-radius: 5px;
+}
+
+#startButton:active{
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#thirdDiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.5vh 0% 0 0%;
+}
+
+#inputEle{
+    border: 1px solid black;
+    height: 6vh;
+    width: 70vw;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 5px 3px 1px 1px black;
+    padding: 15px;
+    position: absolute;
+    top: 45%;
+}
+
+#restartButton{
+    display: none;
+    margin: auto;
+    height: 5vh;
+    width: 8vw;
+    background-color: purple;
+    color: white;
+    box-shadow: 2px 2px 1px 1px grey;
+}
+
+#restartButton:active{
+    box-shadow: 1px 1px 1px 1px black;
+}
